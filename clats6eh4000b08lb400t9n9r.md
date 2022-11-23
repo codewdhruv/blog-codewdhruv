@@ -35,13 +35,7 @@ After reading this article you will learn:
 - Benefits of automating the validation process in a CI/CD pipeline
 - Tools used in validating different kinds of YAML files
 
-### Prerequisites
-
-If you would like to follow along and get your hands dirty with YAML, you will need:
-
-- VS Code with remote development extension
-- Docker desktop or any of the alternatives (need to be able to run containers)
-- Clone this repository
+### Static Checking Categories
 
 The ecosystem of static checking of K8s YAML files can be grouped in the following categories:
 
@@ -58,9 +52,9 @@ Let's try to break down the validation process into categories and understand ho
 
 **Structural validation:** Maintaining the yaml file structure can be a bit mess sometimes for the developer thus validating the structure before execution can help scale down error encountering probability to some extent.
 
-**Semantic validation of K8s schema:** Here the focus is given on validating whether the file is a correct K8s YAML file. This is an automated process is a bit too late in the lifecycle. An interesting tool that we'll explore in this space is kubeval.
+**Semantic validation of K8s schema:** Here the focus is given on validating whether the file is a correct K8s YAML file. This is an automated process is a bit too late in the lifecycle. An interesting tool that we'll explore in this space is kubeconform.
 
-**Pragmatic validation of the resource:** This is where the validation process looks at the file from different contexts. We want to check the file and configuration for security vulnerabilities, performance issues, adherence to best practices, versioning schemes and many more. We'll check out two tools trivy and datree. Both bringing a unique perspective and functionality.
+**Pragmatic validation of the resource:** This is where the validation process looks at the file from different contexts. We want to check the file and configuration for security vulnerabilities, performance issues, adherence to best practices, versioning schemes and many more. 
 
 In this article we'll explore 4 different tools that can help us validate YAML files but there are so many more in the marketplace. Feel free to check  & play around the different tools available.
 
