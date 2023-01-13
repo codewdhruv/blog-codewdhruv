@@ -215,7 +215,7 @@ CONTAINER ID   IMAGE          COMMAND       CREATED         STATUS
 
 ---
 
-That's it for this article. Check out the **Docker Cheatsheet: Click Here**  
+That's it for this article. Check out the **Docker Cheatsheet:** [**Click Here**](https://codewdhruv.gumroad.com/l/docker-cheatsheet)  
 Youtube Stream on **Getting Started with Docker:** [**Click Here**](https://youtu.be/xmyNamfWaCs)
 
 Now that you understand the basics, keep experimenting and see how you can use Docker to package and distribute your applications.
