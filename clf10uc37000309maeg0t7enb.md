@@ -5,8 +5,8 @@ seoDescription: "In this tutorial we learn about Kubernetes and how it can be us
 datePublished: Thu Mar 09 2023 11:24:22 GMT+0000 (Coordinated Universal Time)
 cuid: clf10uc37000309maeg0t7enb
 slug: kubernetes-the-easy-way
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678359660335/1ba0cdea-366d-48ad-8a4b-51e967998b95.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1678361034443/7b34909a-f969-42c8-bca0-5081aa8a14e6.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678361160075/f003234d-497c-40f9-b550-32585fc2a7c9.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1678361176258/896a6735-3ec7-4aa2-b541-786ca0f0894d.png
 tags: kubernetes, containers, k8s, container-orchestration
 
 ---
