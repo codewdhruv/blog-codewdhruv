@@ -47,6 +47,12 @@ When creating an image it's always a good idea to only install tools that you re
 RUN apt-get update && apt-get -y install --no-install-recommends
 ```
 
+This above command is a Unix command commonly used to update the package list and install packages without installing any recommended packages.
+
+The `--no-install-recommends` option, when used with the `apt-get install` command, tells the package manager to install only the specified packages and their dependencies, but not any recommended packages that may not be necessary for the system to function properly.
+
+Overall this command updates the package list and installs packages without any recommended packages, which can help keep the image lean and avoid installing unnecessary packages.
+
 ### Maintainance of the image
 
 > Choosing the right base image for the application is essential.
@@ -98,7 +104,7 @@ FROM python:3.9-slim-buster
 
 **Use minimal flavors of the image**
 
-Using minimal flavors of an image can make it smaller and easier to deploy. This means that applications can be launched faster and with better security.
+Using minimal flavors (variants) of an image can make it smaller and easier to deploy. This means that applications can be launched faster and with better security.
 
 The Alpine flavor is a good example of a lightweight image, with a base size of just 2MB, which can help to significantly reduce the overall image size.
 
@@ -140,9 +146,9 @@ CMD ["nginx", "-g", "daemon off;"]
 
 The above Dockerfile has two stages:
 
-* Stage 1 (called `builder`): This stage is based on the official Node.js `14.17-alpine image`, which includes Node.js and `npm`. It sets the working directory to `/app`, copies the `package.json` and `package-lock.json` files, and runs `npm install --only=prod` to install only the production dependencies. Then, it copies the rest of the code into the container and runs `npm run build` to build the frontend code. The resulting compiled code is stored in the `/app/build` directory.
+* **Stage 1 (called** `builder`**):** This stage is based on the official Node.js `14.17-alpine image`, which includes Node.js and `npm`. It sets the working directory to `/app`, copies the `package.json` and `package-lock.json` files, and runs `npm install --only=prod` to install only the production dependencies. Then, it copies the rest of the code into the container and runs `npm run build` to build the frontend code. The resulting compiled code is stored in the `/app/build` directory.
     
-* Stage 2: This stage is based on the official Nginx `1.21-alpine image`, which includes the Nginx web server. It copies the compiled frontend code from Stage 1 by using the `COPY --from=builder` syntax. Finally, it exposes port 80 and starts the Nginx server.
+* **Stage 2:** This stage is based on the official Nginx `1.21-alpine image`, which includes the Nginx web server. It copies the compiled frontend code from Stage 1 by using the `COPY --from=builder` syntax. Finally, it exposes port 80 and starts the Nginx server.
     
 
 By using multi-stage builds, this Dockerfile ensures that the final container only includes the compiled frontend code and the minimal dependencies required to run it. This results in a smaller, more secure container that's optimized for production use.
