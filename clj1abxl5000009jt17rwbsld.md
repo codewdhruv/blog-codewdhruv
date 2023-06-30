@@ -113,7 +113,7 @@ The usage of named sections following the base image in each stage, denoted by "
 * With multi-stage builds, we can give a specific name to a stage, halt the build at a particular stage, utilize an external image, or switch between different stages.
     
 
-I hope you found this article easy to understand. In the meantime, check out my [**other articles**](https://blog.codewdhruv.com/) on all kinds of programming-related topics like these:
+I hope you found this article easy to understand. In the meantime, check out my [**other articles**](https://blog.codewdhruv.com/) on Docker and DevOps below:
 
 * [**Complete Guide on Docker for Beginners**](https://blog.codewdhruv.com/complete-guide-on-docker-for-beginners)
     
