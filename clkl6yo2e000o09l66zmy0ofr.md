@@ -51,7 +51,7 @@ In a nutshell, LangChain opens up a whole new world of possibilities for develop
 
 Langchain has got these neat APIs that let us seamlessly work with the powerful LLMs for all kinds of cool use cases. The best part is they use Python libraries, which makes working with AI models very easy. We can chain all these components together, creating a seamless flow in our projects with the support of popular AI platforms like OpenAI and Hugging Face, making integration even more efficient.
 
-LongChain’s fundamental concept is its ability to “chain” together different components, also known as “chaining”, which allows for the development of advanced use cases that utilize LLMs. With this powerful concept, it becomes a playground for developers to create next generation applications with advanced language processing capabilities.
+LangChain's fundamental concept is its ability to “chain” together different components, also known as “chaining”, which allows for the development of advanced use cases that utilize LLMs. With this powerful concept, it becomes a playground for developers to create next-generation applications with advanced language processing capabilities.
 
 ### **How to get started with using LangChain?**
 
