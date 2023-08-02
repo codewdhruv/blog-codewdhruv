@@ -6,7 +6,7 @@ datePublished: Wed Aug 02 2023 14:00:20 GMT+0000 (Coordinated Universal Time)
 cuid: clktsp9op000a09l40hi7dv46
 slug: podman-the-future-of-containerization
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688724066053/10f16890-5805-4bca-a9a1-2dc9f8121a22.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690984881198/0c8ff12a-14b4-408e-8abf-752278655580.avif
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690986091785/4d714a1e-6dc4-48be-9bc8-227278bb1d76.png
 tags: docker, kubernetes, devops, containers, podman
 
 ---
