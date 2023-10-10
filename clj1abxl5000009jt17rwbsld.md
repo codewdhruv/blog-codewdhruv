@@ -5,8 +5,8 @@ seoDescription: "In this article we learn about multi stage builds in Docker and
 datePublished: Sun Jun 18 2023 10:28:49 GMT+0000 (Coordinated Universal Time)
 cuid: clj1abxl5000009jt17rwbsld
 slug: understanding-multi-stage-builds-in-docker
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680162325696/11abdc53-94e5-476c-a839-929c207425d3.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1687084177131/bd5290dd-0e6c-4e0d-8c8f-0887b263683f.avif
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696951665932/53cc8fa7-4831-44cf-b559-68f204c701e6.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696951719100/85923795-1105-48c8-8af2-02123d4fcccd.png
 tags: docker, devops, ci-cd, docker-images, devops-articles
 
 ---
