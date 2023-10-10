@@ -5,8 +5,8 @@ seoDescription: "Optimize Your Docker Images for Performance and Efficiency"
 datePublished: Fri Mar 17 2023 08:03:57 GMT+0000 (Coordinated Universal Time)
 cuid: clfc97enj000r08l38zl183ry
 slug: best-practices-for-writing-a-dockerfile
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680161540574/d82d3152-dc8c-4572-a75a-148853b05ad1.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1680161565910/760dffcb-47cd-4a90-88e9-201144b116dd.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696952658493/99adbea5-01a2-4d98-a63f-ebbd39aadcb6.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696952675227/ed1e8bee-4c8d-4304-84d5-503fcdaca794.png
 tags: docker, devops, best-practices, containers, dockerfile
 
 ---
